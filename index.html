@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pattern Echo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Pattern Echo</h1>
+    <div id="info">
+        <div class="info-item score"><strong>Score</strong><span id="score">0</span></div>
+        <div class="info-item"><strong>Level</strong><span id="level">1</span></div>
+        <div class="info-item"><strong>Grid</strong><span id="grid-size">3x3</span></div>
+        <div class="info-item"><strong>Pattern</strong><span id="pattern-length">2</span></div>
+      </div>
+    <div id="grid-container"></div>
+    <p id="message"></p>
+
+    <!-- <button id="start-button">Start</button>
+    <label for="difficulty-select">Difficulty:</label>
+    <select id="difficulty-select">
+        <option value="Easy">Easy</option>
+        <option value="Normal" selected>Normal</option>
+        <option value="Hard">Hard</option>
+    </select> -->
+    <div style="margin: 20px;">
+        <button id="start-button">Start</button>
+        <label for="difficulty-select">Difficulty:</label>
+        <select id="difficulty-select">
+            <option value="Easy">Easy</option>
+            <option value="Normal" selected>Normal</option>
+            <option value="Hard">Hard</option>
+            <option value="Impossible">Impossible</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
